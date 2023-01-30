@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#aboutMe">Автор</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#mail">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="containerAboutMe">
+            <article class="aboutMe" id="aboutMe">
+                <h2>Обо мне</h2>
+                 <p>
+                    Меня зовут Анастасия,и я начинающий Frontend-разработчик.
+                    На протяжении года я училась и практиковалась самостоятельно, на данный момент 
+                    ищу работу для повышения уровня знаний на практике и дальнейшего развития. 
+                    Я имею огромное желание развиваться в этой сфере,
+                    учиться и получать новый опыт.
+                    Я быстро обучаюсь и вливаюсь в коллектив. 
+                </p>
+                <p>
+                    До этого я работала в другой сфере, которая совершенно не приносила мне удовольствия. Но как только я решилась попробовать себя в сфере IT, даже не смотря 
+                    на все трудности, поняла, что это то,
+                    чем я действительно хочу заниматься, что мне безумно интересно.
+                    Надеюсь, вы рассмотрите мою кандидатуру, ведь нет никого лучше, чем сотрудник с горящими от интереса глазами.        
+                </p>
+            </article>
+            <div class="slidesContainer element-animation-right">
+                <div class="MySlides fade">
+                <img class="slide" src="source/kaboompics_Laptop - computer - desk - black candle.jpg" alt="slide1">
+                </div>
+                <div class="MySlides fade">
+                <img class="slide" src="source/kaboompics_Brown vase with pampas grass.jpg" alt="slide2">
+                </div>
+            </div>
+        </div>
+        <div class="skills" id="skills">
+            <div class="skillsHeading">
+                <img src="source/documents_content_blogging_blog_article_icon_228971.svg" alt="icon heading">
+                <h2>Мои навыки</h2>
+            </div>
+            <div class="skillsImag">
+                <div class="htmlBox ">
+                    <span> HTML</span> 
+                    <div class="progressBox element-animation-left"><span class="progress"></span></div>
+                </div>
+                <div class="cssBox">
+                    <span> CSS</span> 
+                    <div class="progressBox element-animation-left"><span class="progress"></span></div>
+                </div>
+                <div class="jsBox">
+                    <span> JavaScript</span> 
+                    <div class="progressBox element-animation-left"><span class="progress"></span></div>
+                </div>
+                <div class="jqueryBox">
+                    <span> jQuery </span> 
+                    <div class="progressBox element-animation-left"><span class="progress"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="mail" id="mail">
+            <p class="git__text">Немного моих работ Вы можете посмотреть на моем GitHub</p>
+                    <a class="git__imag element-animation-left" href="https://github.com/Anastasia-web-front">
+                        <img src="source/2023-01-30_15-07-31.png">
+                    </a>
+            <p>Прислать Ваш ответ Вы можете на почту</p>
+                <button class="email">
+                <a href="mailto:petrovaanastasia2712@yandex.ru ">
+                Email
+                </a>
+                </button>
+            <p>Или в телеграмм</p> 
+                <button class="telegram">
+                <a href="https://telegram.im/@balu_na_balu"><img src="source/telegram_logo_icon_144811.png" alt="telegram"></a>
+                </button> 
+            <p class="test">
+                Буду рада выполнить тестовое задание в кратчайшие сроки
+            </p>    
+         </div>
+    </main>
+    <script src="js/slides.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
